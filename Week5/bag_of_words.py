@@ -26,8 +26,6 @@ class BagOfWordClassifier:
 		"""
 		Give numbers of clusters , indexes of data where clusters end
 		and the query_list
-		bayes_classifier
-		>>>bayes_classifier(2,[1,6])
 		"""
 		row = []
 		data = self.generate_table()
