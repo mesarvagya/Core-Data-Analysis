@@ -7,7 +7,7 @@ class BagOfWordClassifier:
 	and given querylist.
 	Usage
 	>>>b = BagOfWordClassifier("datas.txt"," ")
-	>>>print b.bayes_classifier(3,[4,8,12],[1,1,2,1,1,0,0,1,0,0])
+	>>>print b.bag_of_words_classifier(3,[4,8,12],[1,1,2,1,1,0,0,1,0,0])
 	..... I think the query list belongs to #2 cluster and the matches are [17.633361687639272, 20.520137010619507, 17.105300933216817] 	
 	'''
 	def __init__(self, filename, delimiter):
