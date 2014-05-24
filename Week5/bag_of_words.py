@@ -22,7 +22,7 @@ class BagOfWordClassifier:
 		self.table = np.loadtxt(fname=self.file, delimiter=self.delimiter)
 		return self.table
 
-	def bayes_classifier(self, num_clusters, indexes, query_list):
+	def bag_of_words_classifier(self, num_clusters, indexes, query_list):
 		"""
 		Give numbers of clusters , indexes of data where clusters end
 		and the query_list
@@ -53,4 +53,4 @@ class BagOfWordClassifier:
 		return msg
 
 b = BagOfWordClassifier("datas.txt"," ")
-print b.bayes_classifier(3,[4,8,12],[1,1,2,1,1,0,0,1,0,0])
+print b.bag_of_words_classifier(3,[4,8,12],[1,1,2,1,1,0,0,1,0,0])
