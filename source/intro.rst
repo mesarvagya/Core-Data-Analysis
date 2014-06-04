@@ -18,7 +18,7 @@ This is a statement.
 
 It's okay to use this code.
 
-.. figure:: static/bgspark.jpg
+.. figure:: _static/bgspark.jpg
 	:align:   center
 
    	Check Image
